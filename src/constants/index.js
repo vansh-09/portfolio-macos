@@ -19,19 +19,19 @@ const navLinks = [
 const navIcons = [
   {
     id: 1,
-    img: "src/assets/icons/wifi.svg",
+    img: "/src/assets/icons/wifi.svg",
   },
   {
     id: 2,
-    img: "src/assets/icons/search.svg",
+    img: "/src/assets/icons/search.svg",
   },
   {
     id: 3,
-    img: "src/assets/icons/user.svg",
+    img: "/src/assets/icons/user.svg",
   },
   {
     id: 4,
-    img: "src/assets/icons/mode.svg",
+    img: "/src/assets/icons/mode.svg",
   },
 ];
 
@@ -503,4 +503,4 @@ const WINDOW_CONFIG = {
   imgfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
 };
 
-export { INITIAL_Z_INDEX, WINDOW_CONFIG };/src/assets
+export { INITIAL_Z_INDEX, WINDOW_CONFIG };
